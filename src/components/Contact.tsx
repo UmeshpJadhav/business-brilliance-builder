@@ -1,4 +1,4 @@
-import { Phone, MessageCircle, MapPin, Clock, Mail } from "lucide-react";
+import { Phone, MessageCircle, MapPin, Clock } from "lucide-react";
 import { Button } from "@/components/ui/button";
 
 const Contact = () => {
@@ -51,24 +51,23 @@ const Contact = () => {
 
         <div className="flex flex-col sm:flex-row gap-4 justify-center">
           <Button
+            variant="gradient"
             size="lg"
-            className="bg-accent-gradient text-primary-foreground hover:opacity-90 transition-opacity font-semibold text-lg px-10"
             asChild
           >
             <a href="tel:+919876543210">
-              <Phone className="mr-2 h-5 w-5" />
+              <Phone className="mr-1" />
               Call Now: +91 98765 43210
             </a>
           </Button>
           
           <Button
+            variant="whatsapp"
             size="lg"
-            variant="outline"
-            className="border-white/30 text-white hover:bg-white/10 font-semibold text-lg px-10"
             asChild
           >
             <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer">
-              <MessageCircle className="mr-2 h-5 w-5" />
+              <MessageCircle className="mr-1" />
               WhatsApp Us
             </a>
           </Button>

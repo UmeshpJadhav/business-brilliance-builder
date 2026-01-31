@@ -54,25 +54,24 @@ const Hero = () => {
           {/* CTA Buttons */}
           <div className="flex flex-col sm:flex-row gap-4 mb-12 animate-fade-up" style={{ animationDelay: "0.3s" }}>
             <Button
+              variant="gradient"
               size="lg"
-              className="bg-accent-gradient text-primary-foreground hover:opacity-90 transition-all font-bold text-lg px-8 py-6 h-auto group shadow-lg shadow-secondary/30"
               asChild
             >
-              <a href="tel:+919876543210">
-                <Phone className="mr-2 h-5 w-5" />
+              <a href="tel:+919876543210" className="group">
+                <Phone className="mr-1" />
                 Call Now
-                <ArrowRight className="ml-2 h-5 w-5 group-hover:translate-x-1 transition-transform" />
+                <ArrowRight className="ml-1 group-hover:translate-x-1 transition-transform" />
               </a>
             </Button>
             
             <Button
+              variant="whatsapp"
               size="lg"
-              variant="outline"
-              className="border-2 border-white/40 text-white hover:bg-white/10 hover:border-white/60 font-bold text-lg px-8 py-6 h-auto backdrop-blur-sm"
               asChild
             >
               <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer">
-                <MessageCircle className="mr-2 h-5 w-5" />
+                <MessageCircle className="mr-1" />
                 WhatsApp Us
               </a>
             </Button>

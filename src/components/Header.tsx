@@ -18,7 +18,7 @@ const Header = () => {
         <div className="flex items-center justify-between h-16 md:h-20">
           {/* Logo */}
           <a href="#" className="flex items-center gap-3">
-            <div className="w-10 h-10 rounded-lg bg-accent-gradient flex items-center justify-center">
+            <div className="w-10 h-10 rounded-xl bg-accent-gradient flex items-center justify-center shadow-md">
               <span className="text-white font-bold text-lg">SV</span>
             </div>
             <div className="hidden sm:block">
@@ -44,9 +44,9 @@ const Header = () => {
 
           {/* CTA Button */}
           <div className="hidden md:block">
-            <Button className="bg-accent-gradient text-primary-foreground hover:opacity-90" asChild>
+            <Button variant="gradient" size="default" asChild>
               <a href="tel:+919876543210">
-                <Phone className="mr-2 h-4 w-4" />
+                <Phone className="mr-1" />
                 Call Now
               </a>
             </Button>
@@ -75,9 +75,9 @@ const Header = () => {
                   {link.label}
                 </a>
               ))}
-              <Button className="bg-accent-gradient text-primary-foreground w-full mt-2" asChild>
+              <Button variant="gradient" className="w-full mt-2" asChild>
                 <a href="tel:+919876543210">
-                  <Phone className="mr-2 h-4 w-4" />
+                  <Phone className="mr-1" />
                   Call Now
                 </a>
               </Button>
