@@ -34,7 +34,7 @@ const Contact = () => {
             </div>
             <h3 className="font-display font-semibold text-lg mb-2">Location</h3>
             <p className="text-white/80">
-              Navi Mumbai, Maharashtra
+              Mumbai, Maharashtra
             </p>
           </div>
 

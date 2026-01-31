@@ -24,7 +24,7 @@ const reasons = [
   {
     icon: Users,
     title: "Local Trust",
-    description: "Serving Navi Mumbai with pride. Trusted by hundreds of happy customers.",
+    description: "Serving Mumbai with pride. Trusted by hundreds of happy customers.",
   },
   {
     icon: Hammer,
