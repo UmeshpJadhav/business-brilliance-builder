@@ -45,7 +45,7 @@ const Header = () => {
           {/* CTA Button */}
           <div className="hidden md:block">
             <Button variant="gradient" size="default" asChild>
-              <a href="tel:+919876543210">
+              <a href="tel:+919096528771">
                 <Phone className="mr-1" />
                 Call Now
               </a>
@@ -76,7 +76,7 @@ const Header = () => {
                 </a>
               ))}
               <Button variant="gradient" className="w-full mt-2" asChild>
-                <a href="tel:+919876543210">
+                <a href="tel:+919096528771">
                   <Phone className="mr-1" />
                   Call Now
                 </a>

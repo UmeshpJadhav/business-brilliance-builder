@@ -23,8 +23,8 @@ const Contact = () => {
               <Phone className="h-6 w-6 text-secondary" />
             </div>
             <h3 className="font-display font-semibold text-lg mb-2">Call Us</h3>
-            <a href="tel:+919876543210" className="text-white/80 hover:text-secondary transition-colors">
-              +91 98765 43210
+            <a href="tel:+919096528771" className="text-white/80 hover:text-secondary transition-colors">
+              +91 90965 28771
             </a>
           </div>
 
@@ -55,9 +55,9 @@ const Contact = () => {
             size="lg"
             asChild
           >
-            <a href="tel:+919876543210">
+            <a href="tel:+919096528771">
               <Phone className="mr-1" />
-              Call Now: +91 98765 43210
+              Call Now: +91 90965 28771
             </a>
           </Button>
           
@@ -66,7 +66,7 @@ const Contact = () => {
             size="lg"
             asChild
           >
-            <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer">
+            <a href="https://wa.me/919096528771" target="_blank" rel="noopener noreferrer">
               <MessageCircle className="mr-1" />
               WhatsApp Us
             </a>

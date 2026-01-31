@@ -58,7 +58,7 @@ const Hero = () => {
               size="lg"
               asChild
             >
-              <a href="tel:+919876543210" className="group">
+              <a href="tel:+919096528771" className="group">
                 <Phone className="mr-1" />
                 Call Now
                 <ArrowRight className="ml-1 group-hover:translate-x-1 transition-transform" />
@@ -70,7 +70,7 @@ const Hero = () => {
               size="lg"
               asChild
             >
-              <a href="https://wa.me/919876543210" target="_blank" rel="noopener noreferrer">
+              <a href="https://wa.me/919096528771" target="_blank" rel="noopener noreferrer">
                 <MessageCircle className="mr-1" />
                 WhatsApp Us
               </a>
