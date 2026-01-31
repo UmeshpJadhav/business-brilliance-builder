@@ -36,7 +36,7 @@ const Hero = () => {
           
           {/* Main Heading */}
           <h1 className="font-display text-5xl md:text-6xl lg:text-7xl font-extrabold text-white leading-[1.1] mb-6 animate-fade-up" style={{ animationDelay: "0.1s" }}>
-            <span className="block">श्री विघ्नहर्ता</span>
+            <span className="block">Shree Vighnaharta</span>
             <span className="relative inline-block mt-2">
               <span className="text-gradient">Construction</span>
               <svg className="absolute -bottom-2 left-0 w-full" viewBox="0 0 300 12" fill="none">
