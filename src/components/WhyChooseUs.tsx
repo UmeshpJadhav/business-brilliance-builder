@@ -54,7 +54,7 @@ const WhyChooseUs = () => {
             
             <div className="bg-primary/5 rounded-2xl p-6 border border-primary/10">
               <p className="text-foreground italic text-lg">
-                "हम गुणवत्ता और समय पर काम करने में विश्वास करते हैं। आपका भरोसा, हमारी जिम्मेदारी।"
+                "We believe in quality work and timely delivery. Your trust is our responsibility."
               </p>
               <p className="text-muted-foreground mt-2 text-sm">
                 — Shree Vighnaharta Construction Team
